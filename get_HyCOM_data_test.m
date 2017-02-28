@@ -1,4 +1,7 @@
 % Download HyCOM reanlysis data using OPeNDAP
+%
+% The file used as a reference can be obtained from https://miami.box.com/s/4f5d90tms5djtrl8csgl8deu8316oimd ~70Mb
+%
 % Test using OPenDAP to get the variables and levels I want without having to download the entire file.
 % Use a file already downloaded to write netcdf files like that in the same
 % format

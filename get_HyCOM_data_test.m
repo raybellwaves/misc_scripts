@@ -204,15 +204,4 @@ for i = 1:NumDays
             filedatenum = filedatenum + 1; % Increase by one day
         end
     end
-    profile viewer
-end
-
-% Save missingdata as text file
-% Check if these missing data are on the ftp website
-savestr = ['missing_files_',num2str(startdate),'-',num2str(enddate),'_t0',hour,'.txt'];
-fileID = fopen(savestr,'w');
-formatSpec='%s\n';
-[nrows,ncols] = size(missingdata);
-for row = 1:nrows
-    fprintf(fileID,formatSpec,missingdata(row,:));
 end
